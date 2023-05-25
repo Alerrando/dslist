@@ -3,9 +3,8 @@ package com.brenoalerrando.dslist.entities;
 import jakarta.persistence.*;
 
 //configurar a class java que ela seja equivalente a uma tabela no bd;
-@Entity
+@Entity // Ela vai configurar a classe para ser equivalente a uma tebela do banco relacional
 @Table(name = "tb_game")
-
 public class Game {
 
     @Id

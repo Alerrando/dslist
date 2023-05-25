@@ -11,7 +11,7 @@ import java.util.List;
 
 @Service
 public class GameService {
-    @Autowired
+    @Autowired //puxando uma instância
     private GameRepository gameRepository;
     public List<GamerMinDTO> findAll(){
         List<Game> result = gameRepository.findAll();
